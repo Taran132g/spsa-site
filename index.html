@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPSA: Sikh and Punjabi Student Association at Penn State</title>
+    <meta
+      name="description"
+      content="Support the Sikh and Punjabi Student Association at Penn State, established 2006. Alumni and past presidents help fund langars, meetings, and cultural events, with full transparency on every gift."
+    />
+    <meta name="theme-color" content="#141a2e" />
+    <link rel="icon" href="./favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Support SPSA at Penn State" />
+    <meta
+      property="og:description"
+      content="A welcoming Sikh and Punjabi community at Penn State since 2006, open to all. Help fund the traditions that keep it going."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Fonts: Fraunces (display) + Inter (body) + Noto Sans Gurmukhi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,600&family=Inter:wght@400;500;600;700&family=Noto+Sans+Gurmukhi:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ============ Header ============ -->
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav" aria-label="Main navigation" data-nav>
+          <a class="nav__brand" href="#top" aria-label="SPSA, Penn State">
+            <img class="brand-crest" src="assets/spsa-crest.png" alt="" aria-hidden="true" width="39" height="44" />
+            <span class="nav__name">
+              SPSA
+              <small>Penn State</small>
+            </span>
+          </a>
+
+          <button
+            class="nav__toggle"
+            type="button"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+            data-nav-toggle
+          >
+            ☰
+          </button>
+
+          <ul class="nav__links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#impact">What We Do</a></li>
+            <li><a href="#why">Why Give</a></li>
+            <li><a href="#give">Give</a></li>
+            <li><a href="#transparency">Transparency</a></li>
+          </ul>
+
+          <a class="btn nav__cta" href="#give">Support SPSA</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============ Hero ============ -->
+      <section class="hero" id="top">
+        <img class="hero__crest" src="assets/spsa-crest.png" alt="" aria-hidden="true" width="311" height="351" fetchpriority="high" />
+        <div class="container hero__inner">
+          <p class="hero__eyebrow">Penn State · Est. 2006</p>
+          <h1 class="hero__title">A home for <em>heritage</em>.</h1>
+          <p class="hero__lede">
+            The Sikh and Punjabi Student Association. Open to all, and carried by
+            the alumni before us.
+          </p>
+          <div class="hero__actions">
+            <a class="btn" href="#give">Support SPSA</a>
+            <a class="btn btn--ghost" href="#why">Why Give</a>
+          </div>
+          <dl class="hero__meta">
+            <div>
+              <dt>90%</dt>
+              <dd>UPAC-funded events</dd>
+            </div>
+            <div>
+              <dt>100%</dt>
+              <dd>Goes to programming</dd>
+            </div>
+            <div>
+              <dt>2006</dt>
+              <dd>Established at PSU</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <!-- ============ About ============ -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="about__grid">
+            <div>
+              <span class="eyebrow" data-reveal>Who We Are</span>
+              <h2 class="section-title" data-reveal>
+                Rooted in service, gathering, and joy.
+              </h2>
+              <div class="about__body" data-reveal>
+                <p>
+                  A welcoming community that fosters understanding and
+                  appreciation of Sikhism at Penn State, open to all students.
+                </p>
+                <p>
+                  We run on three ideas: <strong>seva</strong> (service),
+                  <strong>sangat</strong> (community), and
+                  <strong>chardi kala</strong> (rising spirit). Since 2006,
+                  that's meant monthly meetings, langars, and celebration.
+                </p>
+              </div>
+            </div>
+
+            <div class="values" data-reveal>
+              <div class="value">
+                <span class="value__word" lang="pa" aria-hidden="true">ਸੇਵਾ</span>
+                <span class="value__term">Seva</span>
+                <span class="value__desc">Service. Langar is always free.</span>
+              </div>
+              <div class="value">
+                <span class="value__word" lang="pa" aria-hidden="true">ਸੰਗਤ</span>
+                <span class="value__term">Sangat</span>
+                <span class="value__desc">Community. You belong here.</span>
+              </div>
+              <div class="value">
+                <span class="value__word" lang="pa" aria-hidden="true"
+                  >ਚੜ੍ਹਦੀ ਕਲਾ</span
+                >
+                <span class="value__term">Chardi Kala</span>
+                <span class="value__desc">Rising spirit, against the odds.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Impact / What We Do ============ -->
+      <section class="section section--tint" id="impact">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow" data-reveal>What We Do</span>
+            <h2 class="section-title" data-reveal>
+              Traditions you can taste, hear, and stand inside.
+            </h2>
+            <p class="section-lead" data-reveal>
+              Open to all Penn State students. See more on
+              <a
+                class="inline-link"
+                href="https://www.instagram.com/psu.spsa/"
+                target="_blank"
+                rel="noopener"
+                >@psu.spsa</a
+              >.
+            </p>
+          </div>
+
+          <div class="impact__grid">
+            <article class="card card--feature" data-reveal>
+              <img
+                class="card__media"
+                src="assets/events/nagar-kirtan-2026.webp"
+                alt="Nishan Sahib flags at the Harrisburg Nagar Kirtan"
+                width="640"
+                height="340"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="card__body">
+                <span class="card__tag">Latest · September 2026</span>
+                <h3 class="card__title">Harrisburg's First Nagar Kirtan</h3>
+                <p class="card__desc">
+                  The SPSA board joined the sangat for the first Nagar Kirtan in
+                  Harrisburg. A full day of chai langar, the procession, seva,
+                  ardaas, and langar together.
+                </p>
+              <a
+                class="card__link"
+                href="https://www.instagram.com/p/Dc6lI8Fib_w/"
+                target="_blank"
+                rel="noopener"
+                >View post ↗</a
+              >
+              </div>
+            </article>
+            <article class="card" data-reveal>
+              <img
+                class="card__media"
+                src="assets/events/gurdwara-trip-2025.webp"
+                alt="SPSA members outside the Sikh Society of Harrisburg gurdwara beside the Nishan Sahib"
+                width="640"
+                height="640"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="card__tag">Faith</span>
+              <h3 class="card__title">Gurdwara Trips</h3>
+              <p class="card__desc">Trips to the Sikh Society of Harrisburg, most recently in spring 2025.</p>
+              <a
+                class="card__link"
+                href="https://www.instagram.com/p/DH6LLHSMFXh/"
+                target="_blank"
+                rel="noopener"
+                >View post ↗</a
+              >
+            </article>
+
+            <article class="card" data-reveal>
+              <img
+                class="card__media"
+                src="assets/events/cha-social-2022.webp"
+                alt="A packed room of SPSA members at a cha social"
+                width="640"
+                height="640"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="card__tag">Community</span>
+              <h3 class="card__title">Social Events</h3>
+              <p class="card__desc">Chai, games, and good company. Our cha socials are where a lot of new members first meet us.</p>
+              <a
+                class="card__link"
+                href="https://www.instagram.com/p/Cis7haqPi_w/"
+                target="_blank"
+                rel="noopener"
+                >View post ↗</a
+              >
+            </article>
+
+            <article class="card" data-reveal>
+              <img
+                class="card__media"
+                src="assets/events/turban-day-2023.webp"
+                alt="SPSA members in front of the Turban Day banner"
+                width="640"
+                height="640"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="card__tag">Learning</span>
+              <h3 class="card__title">Sikhism Awareness</h3>
+              <p class="card__desc">Turban Day at the Pasquerilla Spiritual Center with Sikhs of Pennsylvania Inc. Turbans tied for anyone curious, with langar served alongside.</p>
+              <a
+                class="card__link"
+                href="https://www.instagram.com/p/CzmWxAMxeYI/"
+                target="_blank"
+                rel="noopener"
+                >View post ↗</a
+              >
+            </article>
+
+            <article class="card" data-reveal>
+              <span class="card__tag">Seva</span>
+              <h3 class="card__title">Langar</h3>
+              <p class="card__desc">A free community meal, open to all, at the Pasquerilla Spiritual Center. Volunteers help cook it at the Gurdwara.</p>
+              <a
+                class="card__link"
+                href="https://www.instagram.com/p/Cc21RplO1qe/"
+                target="_blank"
+                rel="noopener"
+                >View post ↗</a
+              >
+            </article>
+
+            <article class="card" data-reveal>
+              <span class="card__tag">Every Month</span>
+              <h3 class="card__title">General Body Meetings</h3>
+              <p class="card__desc">The heartbeat of the org, all welcome. Like our end-of-semester Rehraas and pizza party.</p>
+              <a
+                class="card__link"
+                href="https://www.instagram.com/p/Cl4mqDrhG_3/"
+                target="_blank"
+                rel="noopener"
+                >View post ↗</a
+              >
+            </article>
+
+            <article class="card" data-reveal>
+              <span class="card__tag">Since 2006</span>
+              <h3 class="card__title">Alumni Network</h3>
+              <p class="card__desc">Two decades of Nittany Sikhs and Punjabis.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Why Give (the gap) ============ -->
+      <section class="section section--dark" id="why">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow" data-reveal>Why Give</span>
+            <h2 class="section-title" data-reveal>
+              The university funds a lot. Not everything.
+            </h2>
+            <p class="section-lead" data-reveal>
+              UPAC covers most event costs, but with caps, long lead times, and
+              gaps. Alumni giving closes them.
+            </p>
+          </div>
+
+          <dl class="stats">
+            <div class="stat" data-reveal>
+              <dt class="stat__num">10%</dt>
+              <dd class="stat__label">our match on every event.</dd>
+            </div>
+            <div class="stat" data-reveal>
+              <dt class="stat__num">8&nbsp;wks</dt>
+              <dd class="stat__label">UPAC lead time. Gifts let us move now.</dd>
+            </div>
+            <div class="stat" data-reveal>
+              <dt class="stat__num">$1k</dt>
+              <dd class="stat__label">food cap. Dinners and gear are on us.</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <!-- ============ Ways to Give (tiers) ============ -->
+      <section class="section" id="give">
+        <div class="container">
+          <div class="section-head section-head--center">
+            <span class="eyebrow" data-reveal>Give</span>
+            <h2 class="section-title" data-reveal>Pick a level.</h2>
+            <p class="section-lead" data-reveal>
+              Amounts follow shagun tradition, ending in one for good fortune.
+              Any amount helps.
+            </p>
+          </div>
+
+          <div class="tiers">
+            <article class="tier" data-reveal>
+              <span class="tier__name" lang="pa">ਸੰਗਤ</span>
+              <span class="tier__name-en">Sangat · Community</span>
+              <p class="tier__amount">$51</p>
+              <p class="tier__what">A chai night or workshop supplies.</p>
+            </article>
+
+            <article class="tier" data-reveal>
+              <span class="tier__name" lang="pa">ਸੇਵਾਦਾਰ</span>
+              <span class="tier__name-en">Sevadar · One Who Serves</span>
+              <p class="tier__amount">$101</p>
+              <p class="tier__what">A table at langar, or a workshop.</p>
+            </article>
+
+            <article class="tier tier--featured" data-reveal>
+              <span class="tier__badge">Most Impact</span>
+              <span class="tier__name" lang="pa">ਚੜ੍ਹਦੀ ਕਲਾ</span>
+              <span class="tier__name-en">Chardi Kala Circle</span>
+              <p class="tier__amount">$251</p>
+              <p class="tier__what">A speaker, or an event's full match.</p>
+            </article>
+
+            <article class="tier" data-reveal>
+              <span class="tier__name" lang="pa">ਵਿਰਾਸਤ</span>
+              <span class="tier__name-en">Legacy Circle</span>
+              <p class="tier__amount">$1,100<span>+</span></p>
+              <p class="tier__what">Name a tradition. Keep it running.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Transparency ============ -->
+      <section class="section section--tint" id="transparency">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow" data-reveal>Transparency</span>
+            <h2 class="section-title" data-reveal>Every dollar, on the record.</h2>
+            <p class="section-lead" data-reveal>
+              We handle gifts the way we handle langar: carefully, and in the
+              open.
+            </p>
+          </div>
+
+          <ul class="trust__list">
+            <li class="trust__item" data-reveal>
+              <h3>
+                <span class="trust__check" aria-hidden="true">✓</span>Official
+                account
+              </h3>
+              <p>
+                Gifts go to SPSA's account under Penn State's Associated Student
+                Activities (ASA), never a personal account.
+              </p>
+            </li>
+            <li class="trust__item" data-reveal>
+              <h3>
+                <span class="trust__check" aria-hidden="true">✓</span>Receipted
+              </h3>
+              <p>Every gift is logged and acknowledged. You get a record.</p>
+            </li>
+            <li class="trust__item" data-reveal>
+              <h3>
+                <span class="trust__check" aria-hidden="true">✓</span>Spent on
+                programming
+              </h3>
+              <p>Funds serve SPSA members and the campus, nothing else.</p>
+            </li>
+            <li class="trust__item" data-reveal>
+              <h3>
+                <span class="trust__check" aria-hidden="true">✓</span>Reported
+              </h3>
+              <p>
+                Our finances follow Penn State rules and are reported to Student
+                Activities.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ Footer ============ -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__top">
+          <div class="site-footer__brand">
+            <img class="brand-crest brand-crest--footer" src="assets/spsa-crest.png" alt="SPSA crest" width="50" height="56" loading="lazy" />
+            <p class="site-footer__tagline">
+              Sikh and Punjabi Student Association. A recognized student
+              organization at Penn State since 2006.
+            </p>
+          </div>
+
+          <div class="site-footer__cols">
+            <div class="site-footer__col">
+              <h4>Explore</h4>
+              <a href="#about">About</a>
+              <a href="#impact">What We Do</a>
+              <a href="#give">Give</a>
+              <a href="#transparency">Transparency</a>
+            </div>
+            <div class="site-footer__col">
+              <h4>Connect</h4>
+              <a href="#" data-contact-link>Email the board</a>
+              <a href="#" data-social-link>Instagram</a>
+              <a href="#" data-social-link>Linktree</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-footer__bottom">
+          <span>© <span data-year>2026</span> SPSA · Penn State University Park</span>
+          <span lang="pa">ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./scripts/main.js" defer></script>
+  </body>
+</html>

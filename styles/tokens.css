@@ -1,0 +1,81 @@
+/* ============================================================
+   SPSA: Design Tokens
+   Palette rooted in Sikh visual identity: midnight navy (Nihang
+   blue), kesari/saffron, gold, and warm cream. Navy also nods to
+   Penn State. All color in oklch for perceptual consistency.
+   ============================================================ */
+
+:root {
+  /* --- Color --- */
+  --navy-deep: oklch(17% 0.045 264);
+  --navy: oklch(24% 0.065 264);
+  --navy-soft: oklch(31% 0.06 264);
+  --saffron: oklch(72% 0.17 55);
+  --saffron-bright: oklch(77% 0.18 62);
+  --gold: oklch(82% 0.12 85);
+  --gold-soft: oklch(88% 0.08 88);
+  --cream: oklch(97% 0.014 85);
+  --cream-dim: oklch(94% 0.02 84);
+  --ink: oklch(24% 0.02 264);
+  --ink-muted: oklch(46% 0.02 264);
+  --line: oklch(88% 0.015 84);
+  --line-strong: oklch(80% 0.02 84);
+  --white: oklch(99% 0.005 90);
+
+  /* Semantic surfaces */
+  --color-surface: var(--cream);
+  --color-surface-raised: var(--white);
+  --color-text: var(--ink);
+  --color-text-muted: var(--ink-muted);
+  --color-accent: var(--saffron);
+
+  /* --- Typography --- */
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+  --font-gurmukhi: "Noto Sans Gurmukhi", var(--font-body);
+
+  --text-xs: 0.78rem;
+  --text-sm: 0.9rem;
+  --text-base: clamp(1rem, 0.94rem + 0.3vw, 1.12rem);
+  --text-lg: clamp(1.18rem, 1.05rem + 0.6vw, 1.4rem);
+  --text-xl: clamp(1.5rem, 1.2rem + 1.4vw, 2.1rem);
+  --text-2xl: clamp(2rem, 1.4rem + 2.6vw, 3.2rem);
+  --text-hero: clamp(2.7rem, 1.2rem + 6.4vw, 6rem);
+
+  --leading-tight: 1.05;
+  --leading-snug: 1.25;
+  --leading-normal: 1.6;
+
+  /* --- Space --- */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-section: clamp(4rem, 3rem + 5vw, 9rem);
+  --measure: 68ch;
+  --container: 1200px;
+
+  /* --- Radius --- */
+  --radius-sm: 6px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  /* --- Elevation --- */
+  --shadow-sm: 0 1px 2px oklch(24% 0.06 264 / 0.06),
+    0 2px 6px oklch(24% 0.06 264 / 0.05);
+  --shadow-md: 0 12px 28px oklch(20% 0.06 264 / 0.1),
+    0 4px 10px oklch(20% 0.06 264 / 0.06);
+  --shadow-lg: 0 28px 60px oklch(18% 0.06 264 / 0.16),
+    0 10px 24px oklch(18% 0.06 264 / 0.08);
+
+  /* --- Motion --- */
+  --duration-fast: 160ms;
+  --duration-normal: 340ms;
+  --duration-slow: 700ms;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-back: cubic-bezier(0.34, 1.4, 0.5, 1);
+}
